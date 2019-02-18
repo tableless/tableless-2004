@@ -1,0 +1,22 @@
+/***************
+Div dos banners
+***************/
+#banner {
+    display:block;
+}
+
+#banner p, #banner h1 {
+    display:none;
+}
+
+/***************
+Titulos
+***************/
+h1 {
+    text-indent:-5000px;
+    cursor:hand;
+}
+
+#sites ul li.outrolic {
+    font:60% Verdana, arial, tahoma, sans-serif;
+}

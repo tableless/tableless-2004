@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<feeds>
+	<feed keyword="tableless" time="15">
+		<header>
+			<channel>
+				<title>Tableless</title>
+				<link>http://www.tableless.com.br/</link>
+				<description>Tableless [HTML XHTML CSS TABLELESS]</description>
+			</channel>
+			<image>
+				<title>Tableless [HTML XHTML CSS TABLELESS]</title>
+				<url>http://www.tableless.com.br/imagens/loguinho.gif</url>
+				<link>http://www.tableless.com.br/</link>
+			</image>
+		</header>
+		<sources url="http://www.tableless.com.br/default.asp">
+			<source title="$1" link="http://www.tableless.com.br/$3" description="$2">
+			<![CDATA[(<h2 class="blogentry">[^<]*)</h2><p>([^\|]*)</p>[^\|]+\|[^\|]+\|[^<]*<a href="([^"]*)">]]>
+			</source>
+		</sources>
+	</feed>
+	<feed keyword="poetas" time="10">
+		<header>
+			<title>Blog dos Poetas</title>
+			<link>http://www.tableless.com.br/poetas/</link>
+			<publisher>Ederson Peka</publisher>
+			<language>pt</language>
+			<description>Blog dos Poetas: poetas.blogspot.com - Blog de poesias de escritores famosos e consagrados...</description>
+			<image>
+			<title>Blog dos Poetas</title>
+			<url>http://www.tableless.com.br/poetas/banner.gif</url>
+			<link>http://www.tableless.com.br/poetas/</link>
+			</image>
+		</header>
+		<sources url="http://www.tableless.com.br/poetas/posts.asp">
+			<source title="$4: $5" link="http://www.tableless.com.br/poetas/posts.asp#$1" description="&lt;i&gt;.: $3,$4:&lt;/i&gt;&lt;br /&gt;$6" pubDate="$4">
+			<![CDATA[<a name="([^"]*)"></a><br />\s*<div class="(.*)cont">\s*.: (.*),(.*)<br />\s*&nbsp;<br />\s*<h1>([^<]*)</h1>\r?\n?((\r\n.+)*)\r\n\r\n]]>
+			</source>
+		</sources>
+	</feed>
+</feeds>
+
+

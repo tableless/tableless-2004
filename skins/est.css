@@ -1,0 +1,331 @@
+body {
+	text-align:center;
+	margin:0px;
+	padding:0px 0px 30px;
+}
+
+hr {display:none;}
+
+img {vertical-align:middle;}
+
+cite {
+	display:block;
+	margin:5px;
+}
+
+/***************
+Div dos banners
+***************/
+#banner {
+	margin:10px;
+}
+
+#banner p, #banner h1 {
+    display:none;
+}
+
+/***************
+Mestre
+***************/
+#mestre {
+	position:relative;
+	width:740px;
+	margin:0px auto;
+}
+
+/***************
+Titulos
+***************/
+h1 {
+	margin:0px;
+	background: url("padrao/imagens/tablelessvermelho.gif") no-repeat #EDEDED;
+	height:71px;
+    text-indent:-5000px;
+    cursor:hand;
+	display:block;
+	_float:left;
+	width:100%;
+}
+
+h1 a {
+	display:block;
+	width:350px;
+	height:71px;
+}
+
+h1 span {
+	display:none;
+}
+
+h3 {
+	margin:20px 0px 0px;
+}
+
+/***************
+Menu
+***************/
+#menu {
+	margin:1px 0px;
+	clear:both;
+	z-index:0;
+}
+
+#menu ul {
+	padding:0px;
+	margin:0px;
+	float: left;
+	width: 100%;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+	padding: 0.2em 1em;
+	float: left;
+}
+
+/*** Boxes ***/
+.box {
+    margin:7px 0px;
+}
+
+/***************
+Div dos sites
+***************/
+#sites {
+	width:185px;
+	padding:15px 0px;
+	margin:7px 0px;
+	position:absolute;
+    right:0px;
+    top:100px;
+	border-bottom:3px solid #D6D6D6;
+}
+
+#sites h3 {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+}
+
+#sites ul {
+	margin:0px;
+	padding:0px 0px 15px 15px;
+	list-style:none;
+}
+
+#sites ul li {
+	margin:0px;
+	padding:0px;
+}
+
+/***************
+Layouts
+***************/
+#layout {
+	float:left;
+	clear:left;
+	width:185px;
+	padding:15px 0px;
+	margin:10px 0px;
+	border-bottom:3px solid #D6D6D6;
+}
+
+#layout h3, #layout p {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+}
+
+/***************
+Site Recomendado
+***************/
+#recomendado {
+	float:left;
+	clear:left;
+	width:185px;
+	padding:15px 0px;
+	border-bottom:3px solid #D6D6D6;
+}
+
+#recomendado h3, #recomendado p {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+}
+
+/***************
+Arquivo
+***************/
+#arquivo {
+	float:left;
+	clear:left;
+	width:185px;
+	padding:15px 0px;
+	border-bottom:3px solid #D6D6D6;
+}
+
+#arquivo h3 {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+}
+
+#arquivo ul {
+	margin:0px;
+	padding:0px 0px 15px 15px;
+	list-style:none;
+}
+
+#arquivo ul li {
+	margin:0px;
+	padding:0px;
+}
+
+/***************
+Busca
+***************/
+#busca, #skins {
+	float:left;
+	clear:left;
+	width:185px;
+	padding:15px 0px;
+	border-bottom:3px solid #D6D6D6;
+}
+
+#busca h3, #skins h3 {
+	margin:0px;
+	padding:0px 0px 0px 15px;
+}
+
+#busca p, #skins p {
+	padding:0px 10px;
+}
+
+#busca ul, #skins ul {
+	margin:0px;
+	padding:0px 0px 15px 15px;
+	list-style:none;
+}
+
+#busca ul li, #skins ul li {
+	margin:0px;
+	padding:0px;
+}
+
+#busca form {
+	margin:0px;
+	padding:0px 15px;
+}
+
+#busca .inputext {
+	width:160px;
+}
+
+#busca .botao {
+	float:right;
+}
+
+/***************
+Franquia
+***************/
+#franquia {
+	float:left;
+	clear:left;
+	margin:0px 0px 0px 15px;
+}
+
+/***************
+Texto do Blog
+***************/
+#txtcont {
+	margin:10px 200px 0px 200px;
+}
+
+html>body #txtcont {
+	width:330px;
+	margin:40px 0px 0px 200px;
+}
+
+#txtcont p {
+	margin:0px 0px 10px;
+}
+
+#txtcont p.assinatura {
+	margin:-10px 0px 0px;
+}
+
+#txtcont h2 {
+	margin:15px 0px 0px;
+}
+
+#txtcont ol {
+    margin:0px;
+    padding:0px 30px 30px;
+}
+
+#txtcont li {
+	margin:0px;
+	padding:10px 0px 0px;
+}
+
+#txtcont li h3 {
+	margin:0px;
+}
+
+#txtcont ul.links {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+#txtcont ul.links li {
+	margin:0px;
+	padding:0px;
+}
+
+/***************
+Logo grande deitado
+***************/
+#logogrande {
+	width:185px;
+	height:152px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	z-index:1;
+}
+
+/***************
+rodape
+***************/
+#rodape {
+	clear:both;
+}
+
+/***************
+Logos
+***************/
+#rodape #logos {
+	float:left;
+	padding:10px;
+}
+
+#rodape #logos img {
+	margin:0px 0px 5px;
+}
+
+/***************
+Inputs
+***************/
+form#comentario .inputtexto {
+	width:230px;
+	border:1px solid #CCC;
+}
+
+div.botao {
+	text-align:right;
+}
+
+/***************
+Pres compridos
+***************/
+.artigo pre{
+    overflow:auto;
+}

@@ -1,0 +1,258 @@
+body {
+	background:url("imagens/fundobody.gif") white;
+}
+
+blockquote {
+	font:70% Tahoma, verdana, Arial, Sans-Serif;
+}
+
+xmp {
+	font-size:90%;
+	font-weight:bold;
+}
+
+img {border:0px;}
+
+/** Listas de descrição **/
+dl {
+	font:70% Verdana, Tahoma;
+}
+
+dl dt {
+	font-weight:bold;
+	margin-top:5px;
+}
+
+/***************
+links do tutorial de links personalizados
+***************/
+#txtcont p a.link1, #txtcont p a.link2 {
+	text-decoration:none;
+	border:0px;
+}
+
+#txtcont p a.link1 {
+	background:url("http://www.tableless.com.br/estudo/linkperson/link2.gif") repeat-X bottom white;
+	padding:0px 0px 5px;
+}
+
+#txtcont p a.link1:hover {
+	background:url("http://www.tableless.com.br/estudo/linkperson/link2.gif") repeat-X bottom white;
+	color:blue;
+}
+
+#txtcont p a.link2 {
+	background:url("http://www.tableless.com.br/estudo/linkperson/link3.gif") repeat-X bottom white;
+	padding:0px 0px 7px;
+}
+
+#txtcont p a.link2:hover {
+	background:url("http://www.tableless.com.br/estudo/linkperson/link3.gif") repeat-X bottom white;
+	color:blue;
+}
+
+/***************
+Mestre
+***************/
+#mestre {
+	background:white;
+	text-align:left;
+	border:1px solid #A0A0A0;
+}
+
+/***************
+Inputs
+***************/
+form {
+	font:70% Verdana, Arial, Sans-Serif;
+}
+
+.inputext, textarea {
+	width:250px;
+	border:1px solid #CCC;
+	margin:0px 0px 7px;
+	font:100% Verdana, Arial, Sans-Serif;
+}
+
+textarea {
+	height:150px;
+}
+
+/***************
+Titulos
+***************/
+#logo {
+	background-color:#EDEDED;
+}
+
+#mestre h1 a {
+	text-decoration:none;
+}
+
+h3 {
+	color:#770000;
+	font:110% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+}
+
+/***************
+Menu
+***************/
+#menu {
+	border-top:2px solid #D6D6D6;
+}
+
+#menu ul {
+	background-color:#EDEDED;
+	color:white;
+	font: 90% arial, helvetica, sans-serif;
+}
+
+#menu ul li a {
+	background-color:#EDEDED;
+	color: #666;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+/***************
+Boxes
+***************/
+.box {
+	background:#EDEDED;
+}
+
+.box li a{
+	color:#3F3F3F;
+	font:90% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+	text-decoration:none;
+}
+
+.box li a:hover {
+	background:#EA0000;
+	color:white;
+}
+
+.box h3{
+	color:#EA0000;
+	font:110% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+}
+
+.box p a {
+	color:#3F3F3F;
+	font:90% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+	text-decoration:none;
+}
+
+.box p a:hover {
+	background:#EA0000;
+	color:white;
+}
+
+/***************
+Div dos sites
+***************/
+#sites {
+	color:#3F3F3F;
+}
+
+#sites li a {
+	padding:0px 1px;
+}
+
+/***************
+Layouts
+***************/
+
+
+/***************
+Site Recomendado
+***************/
+
+
+
+/***************
+Arquivo
+***************/
+
+
+
+/***************
+Texto do Blog
+***************/
+#txtcont h2 {
+	font:140% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+	color:#EA0000;
+}
+
+#txtcont li h3 {
+	font:bold 100% Tahoma, Trebuchet Ms, Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+#txtcont p, #txtcont li {
+	font:80% Tahoma, Trebuchet Ms, Verdana, Arial, Helvetica, Sans-Serif;
+	color:#3F3F3F;
+}
+
+#txtcont p.assinatura {
+	font:60% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+	color:#EA0000;
+}
+
+html>body #txtcont a {
+	text-decoration:none;
+	border-bottom:1px dotted #426373 ;
+}
+
+#txtcont a:hover {
+	color:#EA0000;
+	border:0px;
+	text-decoration:none;
+}
+
+/***************
+Logo grande deitado
+***************/
+#logogrande {
+	background:url("imagens/logovermelho.gif") no-repeat;
+}
+
+html>body #logogrande {
+	background:url("imagens/logovermelho.png") no-repeat;
+}
+
+/***************
+Rodape
+***************/
+#rodape {
+	background:#EDEDED;
+	border-top:2px solid #D6D6D6;
+}
+
+#rodape address {
+	text-align:right;
+	padding:10px;
+	font:70% Trebuchet Ms, Verdana, Arial, Tahoma, Helvetica, Sans-Serif;
+	color:#3F3F3F;
+}
+
+/***************
+Sentinhas para direita
+***************/
+a.setasdir {
+	background:url("imagens/lerartigo.gif") no-repeat top left;
+	height:22px;
+	width:22px;
+	vertical-align:top;
+	display:block;
+	border:0px;
+}
+
+a.setasdir span {
+    display:none;
+}

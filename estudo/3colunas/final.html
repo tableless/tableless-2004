@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt">
+
+<head>
+	<title>Layout simples com 3 colunas</title>
+    <style type="text/css">
+<!--
+/* ==========================  
+Cosmética, apenas para deixar apresentável:  
+========================== */
+h1 { 
+	text-align:center; 
+}
+#geral { 
+	text-align:justify; 
+	font:70% Verdana, Arial, 'Sans-Serif';
+}
+
+/* ==========================  
+Aqui fazemos o layout   
+========================== */
+#geral { 
+	width:700px;
+}
+#esquerda, #direita { 
+	width:150px;
+}
+#esquerda { 
+	float:left;
+}
+#direita { 
+	float:right;
+}
+#conteudo {
+	width:370px; 
+	margin-left:160px;
+}
+ 
+
+-->
+    </style>
+</head>
+
+<body>
+    <div id="geral">
+	<h1>Layout com 3 Colunas</h1>
+      <div id="esquerda">
+	  	Conteúdo da esquerda Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut volutpat. Nulla pellentesque. In sed neque.
+	  </div>
+      <div id="direita">
+	  	Conteúdo da Direita Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut volutpat. Nulla pellentesque. In sed neque.
+	  </div>
+      <div id="conteudo">
+	  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut volutpat. Nulla pellentesque. In sed neque. Integer facilisis, lorem ac malesuada dignissim, eros metus posuere urna, et vestibulum urna justo ac enim. Ut lectus lacus, semper non, fermentum ut, porta in, sapien. Suspendisse pharetra blandit wisi. Duis dui ante, lobortis in, volutpat eu, blandit ac, eros. Maecenas quis ante a dolor hendrerit congue. Vestibulum risus enim, mollis ultricies, venenatis non, euismod ac, tellus.</p><p> Maecenas congue, ipsum et elementum ullamcorper, urna velit ultrices massa, in accumsan velit ligula id purus. Sed metus elit, blandit nec, ultrices id, scelerisque ultrices, augue. Phasellus accumsan. Cras porta. Sed turpis urna, aliquet in, ornare et, congue bibendum, justo.</p><p> Proin in eros at justo lacinia varius. Proin nulla dui, euismod sit amet, lobortis non, porta vel, ipsum. Fusce malesuada accumsan tellus. Sed tincidunt justo a magna. In a nunc. Suspendisse placerat, quam a euismod auctor, massa eros tincidunt massa, quis hendrerit turpis justo in diam.</p>
+	  </div>
+    </div>
+</body>
+</html>

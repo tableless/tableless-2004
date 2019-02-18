@@ -1,0 +1,97 @@
+/***************************************
+OBSERVAÇÕES:
+
+	Todos os comentários que o nome vier acompanhado por: *
+	É sinal que ele está escrito nos dois arquivos css (velhos.css e novos.css
+***************************************/
+
+body {
+	background:#ffffff;
+font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ;
+}
+
+
+/* Os sinais de maiores */
+.sinalmaior {
+	font-size: xx-small; color: #999999;
+}
+
+/***************************************
+CABECALHO *
+***************************************/
+#cabecalho {
+	float:inherit;
+	width:100%;
+	background: #FFFF66 ;
+	border-bottom:1px solid #E6E6E6;
+}
+
+#inputscabecalho {
+	text-align:right;
+	padding:3px;
+}
+
+#textocabecalho {
+	font:80% Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+	float:left;
+}
+
+/***************************************
+GERAL
+***************************************/
+#geral {
+	background:#FFFFDD;
+}
+
+/***************************************
+CONTEUDO DA ESQUERDA *
+***************************************/
+#esq {
+	float:left;
+	width:50%;
+}
+
+/***************************************
+CONTEUDO DA DIREITA *
+***************************************/
+#dir {
+	background:#CCF6F6;
+}	
+
+#esq div, #dir div {
+	padding:10px;
+}
+
+#esq p {
+	margin:15px 0px 0px 0px;
+}
+
+#dir .lh{
+	font:bold 80% Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+}
+
+#dir p {
+	margin:0.5ex 0px 0px 0px;
+}
+
+/***************************************
+RODAPE	
+***************************************/
+#rodape {
+	font:80%  Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ;
+}
+
+/***************************************
+TITULOS
+***************************************/
+h1, h2, h3, h4, h5, h6{
+	font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ; 
+}
+
+h1 b {
+	color:#CC0000;
+}
+
+h4 {
+	margin:0px 0px 6px 0px;
+}

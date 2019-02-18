@@ -1,0 +1,1 @@
+<%response.redirect "http://www.tableless.com.br/linksdir.asp" %>
